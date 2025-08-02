@@ -3,12 +3,15 @@
 Dataset Used : [Brain Tumor Images](https://www.kaggle.com/datasets/murtozalikhon/brain-tumor-multimodal-image-ct-and-mri)
 
 ## Overview:
+ - Dataset has two classes **Healthy** and **Tumor**
+ - Healthy MRI has 2000 Images
+ - Tumor MRI has 3000 Images
 
 ### CNN Model Currently trained on only MRI images
  - I had done splitting of dataset with the split.py due to errors but I highly recommend to use inbuilt functions from TensorFlow or Torch to prepare image data
 
 
-### Metrics:
+### CNN Metrics:
  - Dataset has two classes **Healthy** and **Tumor**
  - Healthy MRI has 2000 Images
  - Tumor MRI has 3000 Images
@@ -17,6 +20,15 @@ Dataset Used : [Brain Tumor Images](https://www.kaggle.com/datasets/murtozalikho
  - It might look like overfitting but on looking confusion matrix it looks good
  - Average Inference Time : 20-30ms depending on hardware
  - Runs on CPU, to run on GPU need TensorFlow GPU version that is available on Linux
+
+ ### ResNet Metric:
+ - Precision for Healthy Class : 0.92
+ - Precision for Tumor Class : 0.98 
+ - Average Test Accuracy : 95%
+ - Validation Accuracy: 0.94
+ - Overall Much better than CNN
+ - Model Size ~ 203MB
+ - I haven't uploaded the model file for this yet due to github size limitations
 
 ### How to use custom images to test:
  - First load model from models folder
