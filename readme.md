@@ -29,6 +29,7 @@ Dataset Used : [Brain Tumor Images](https://www.kaggle.com/datasets/murtozalikho
  - Overall Much better than CNN
  - Model Size ~ 203MB
  - ResNet Model: [Download](https://drive.google.com/file/d/1d3RNUViKOgNtoirVpXupwx348e_c4bDP/view?usp=sharing)
+ - Move the downloaded model to models folder and then test
 
 ### How to use custom images to test:
  - First load model from models folder
