@@ -28,7 +28,7 @@ Dataset Used : [Brain Tumor Images](https://www.kaggle.com/datasets/murtozalikho
  - Validation Accuracy: 0.94
  - Overall Much better than CNN
  - Model Size ~ 203MB
- - [Download](https://drive.google.com/file/d/1d3RNUViKOgNtoirVpXupwx348e_c4bDP/view?usp=sharing) ResNet Model
+ - ResNet Model: [Download](https://drive.google.com/file/d/1d3RNUViKOgNtoirVpXupwx348e_c4bDP/view?usp=sharing)
 
 ### How to use custom images to test:
  - First load model from models folder
